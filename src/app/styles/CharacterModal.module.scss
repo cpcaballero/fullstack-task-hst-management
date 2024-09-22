@@ -1,0 +1,18 @@
+.filmContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; // Space between items
+}
+
+.filmThumbnail {
+  display: flex;
+  flex-direction: column;
+  align-items: center; // Center align items
+  max-width: 150px; // Max width for thumbnails
+}
+
+.thumbnailImage {
+  width: 100%; // Image takes full width of the container
+  height: auto; // Maintain aspect ratio
+  border-radius: 4px; // Optional: rounded corners for images
+}
